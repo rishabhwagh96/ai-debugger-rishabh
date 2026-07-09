@@ -1,4 +1,9 @@
 package com.aidebugger.ai_debugger.service;
 
-public class LlmService {
+import com.aidebugger.ai_debugger.dto.AnalyzeResponse;
+
+public interface LlmService {
+
+    AnalyzeResponse analyzeStackTrace(String stackTrace);
+
 }
