@@ -13,6 +13,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 public class AiDebuggerApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(AiDebuggerApplication.class, args);
 	}
 }
